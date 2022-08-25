@@ -1,13 +1,9 @@
 package com.flamexander.not.cloud.rest.service;
 
 import com.flamexander.cloud.common.CloudPacket;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 @RestController
 public class CloudRestController {

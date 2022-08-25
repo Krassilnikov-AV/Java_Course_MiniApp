@@ -1,9 +1,7 @@
 package com.flamexander.cloud.statistic.chain.service;
 
 import com.flamexander.cloud.common.CloudPacket;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class StatisticController {

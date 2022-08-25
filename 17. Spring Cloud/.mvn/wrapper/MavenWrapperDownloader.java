@@ -17,9 +17,7 @@ specific language governing permissions and limitations
 under the License.
 */
 
-import java.io.*;
 import java.net.URL;
-import java.nio.channels.*;
 import java.util.Properties;
 
 public class MavenWrapperDownloader {
