@@ -5,8 +5,6 @@ import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
 import org.springframework.stereotype.Component;
 
-import java.util.*;
-
 @Component
 public class CustomTokenEnhancer implements TokenEnhancer {
     @Override
