@@ -1,4 +1,4 @@
-package com.Java_course.spring.boot.current.SpringBoot.entities;
+package com._product.entities;
 
 import lombok.*;
 
@@ -6,11 +6,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Product {
-
     private Long id;
-
     private String title;
-
     private int price;
 
 }

@@ -4,7 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<!--<packaging>pom</packaging>-->
 	<modules>
-		<module>discover-service-eureka</module>
+		<module>discovery-service-eureka</module>
+		<module>auth-server</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

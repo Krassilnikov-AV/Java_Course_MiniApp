@@ -1,16 +1,20 @@
-package com.Java_course.spring.boot.current.SpringBoot.repositories;
+package com._product.repositories;
 
 
-import com.Java_course.spring.boot.current.SpringBoot.entities.Product;
+import com._product.entities.Product;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.util.*;
-
+/**
+ * для работы с БД*/
 @Component
 public class ProductRepository {
 	private List<Product> products;
 
+	/**
+	 * симуляция работы с БД
+	 */
 	@PostConstruct
 	public void init() {
 		products = new ArrayList<>();
@@ -50,14 +54,18 @@ public class ProductRepository {
 		}
 	}
 
+//	public void deleteById(Long id) {
+//		Iterator<Product> iter = products.iterator();
+//		while (iter.hasNext()) {
+//			Product product = iter.next();
+//			if (product.getId().equals(id)) {
+//				iter.remove();
+//				return;
+//			}
+//		}
+//	}
+	// deleteById переписан на стрим
 	public void deleteById(Long id) {
-		Iterator<Product> iter = products.iterator();
-		while (iter.hasNext()) {
-			Product product = iter.next();
-			if (product.getId().equals(id)) {
-				iter.remove();
-				return;
-			}
-		}
+		products.remove(products.stream().filter(p->p.getId().equals(id)).findFirst().get());
 	}
 }

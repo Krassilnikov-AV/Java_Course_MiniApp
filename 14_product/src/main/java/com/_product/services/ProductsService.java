@@ -1,17 +1,16 @@
-package com.Java_course.spring.boot.current.SpringBoot.services;
+package com._product.services;
 
-
-import com.Java_course.spring.boot.current.SpringBoot.entities.Product;
-import com.Java_course.spring.boot.current.SpringBoot.repositories.ProductRepository;
+import com._product.entities.Product;
+import com._product.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * - ProductsService - выполняет полностью всю нашу работу
+ * - ProductsService -для работы с продуктами из БД,
+ * выполняет полностью всю нашу работу (показать список всех наших товаров)
  */
 @Service
 public class ProductsService {
@@ -30,7 +29,7 @@ public class ProductsService {
 
 	/*
 	* выполняет защиту на уровне сервиса, метод запустится при входе в ADMIN*/
-	@Secured(value = ("ADMIN"))
+//	@Secured(value = ("ADMIN"))
 	public List<Product> getAllProductsWitchFilter(String word) {
 		List<Product> fullList = productRepository.findAll();
 		if (word == null) {

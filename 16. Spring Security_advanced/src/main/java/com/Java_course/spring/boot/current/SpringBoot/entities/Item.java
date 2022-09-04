@@ -9,7 +9,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Item extends NewProduct {
+public class Item extends Product {
 
 	@Id
 	@GeneratedValue
