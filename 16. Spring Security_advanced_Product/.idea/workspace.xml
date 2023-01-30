@@ -2,77 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3971eb-15fe-43e0-a6ea-6a3a88edca44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/ItemProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ItemsSpecs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ProductsSpecs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ItemsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/cat-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/product-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/simple-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Product_Spring Security_advanced/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Product_Spring Security_advanced/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/SecurityWebApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/ItemsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/ItemProjection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/ItemProjection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/specification/ItemsSpecs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/repositories/specification/ItemsSpecs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/ItemsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/ItemsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/ProductsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/cat-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/cat-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/items.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/product-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/product-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/product-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/product-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/simple-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/resources/templates/simple-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/repositories/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/repositories/specification/ItemsSpecs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/services/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/db.migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/templates/product-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/templates/product-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/services/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/templates/product-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/templates/product-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_security_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/spring_security_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_5_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18. java-rabbitmq/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18. java-rabbitmq/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18. java-rabbitmq/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18. java-rabbitmq/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14. Spring boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14. Spring boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Product_Spring Security_advanced/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/AuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/AuthServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/CustomTokenEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/CustomTokenEnhancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/eureka-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/eureka-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/java/com/flamexander/zuul/server/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/java/com/flamexander/zuul/server/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/java-rabbitmq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/ReceiverApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/ReceiverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/RoutingConsumerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/RoutingConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/ExchangeSenderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/ExchangeSenderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/RoutingProducerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/RoutingProducerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18. java-rabbitmq/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -101,47 +197,20 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="boot_security: schema" type="983ebcf7:PgImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="boot_security: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="PostgreSQL - postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="boot_security: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="roles: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -161,21 +230,127 @@
     </expanded>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityWebApplicationInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+            <state relative-caret-position="152">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="115" selection-start-line="1" selection-end-line="115" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/ItemsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/ItemProjection.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="27">
+              <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -191,16 +366,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring/boot_security/current/configuration/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/Application.java" />
         <option value="$PROJECT_DIR$/16. Spring Security_advanced_Product.iml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/ItemProjection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/SpringSecurityApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityWebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/NewProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ItemsSpecs.java" />
@@ -208,12 +379,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ItemRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/RoleRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ProductsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ProductsSpecs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/ItemsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -252,10 +430,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="445" />
-    <option name="y" value="21" />
-    <option name="width" value="1464" />
-    <option name="height" value="740" />
+    <option name="x" value="395" />
+    <option name="y" value="125" />
+    <option name="width" value="1160" />
+    <option name="height" value="480" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,6 +441,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +482,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="current" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16. Spring Security_advanced_Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16. Spring Security_advanced_Product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="current" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16. Spring Security_advanced_Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16. Spring Security_advanced_Product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="current" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -321,8 +518,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="current" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="specification" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="16. Spring Security_advanced_Product" type="b2602c69:ProjectViewProjectNode" />
@@ -338,6 +534,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="16. Spring Security_advanced_Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="16. Spring Security_advanced_Product" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,7 +580,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +590,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1/Java-course-master/16. Spring Security_advanced" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -509,31 +712,31 @@
     <frame x="-7" y="-7" width="1294" height="694" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32820097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23338735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3283859" />
-      <window_info anchor="bottom" id="Database Console" weight="0.06679035" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24860853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17254174" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283859" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3283859" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.26901668" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.3283859" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3283859" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2671614" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3283859" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.06679035" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3283859" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.31928688" />
+      <window_info anchor="right" id="Database" order="3" weight="0.25283632" />
       <window_info anchor="right" id="Maven" order="4" weight="0.32901135" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
@@ -546,37 +749,15 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.migration/V1__init.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html" />
     <entry file="file://$PROJECT_DIR$/16. Spring Security_advanced_Product.iml" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e3b35cc7-7750-4f73-a581-56063fe4f99a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/spring_security/SpringSecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/spring_security/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/spring_security/SpringSecurityApplication.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/spring_security/ServletInitializer.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a3a72b82-810d-4d1a-ada8-73c4b0a136c2/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ProductsSpecs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.2/spring-security-core-5.7.2.jar!/org/springframework/security/core/userdetails/UserDetails.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -585,119 +766,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a3a72b82-810d-4d1a-ada8-73c4b0a136c2/database/postgres/schema/boot_security/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a3a72b82-810d-4d1a-ada8-73c4b0a136c2/database/postgres/schema/boot_security/table/roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../1/Java-course-master/16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="72" selection-start-line="1" selection-end-line="10" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/SpringSecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ItemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ProductsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://a3a72b82-810d-4d1a-ada8-73c4b0a136c2/database/postgres/schema/boot_security/table/users" />
+    <entry file="das://a3a72b82-810d-4d1a-ada8-73c4b0a136c2/database/postgres/schema/boot_security/table/roles" />
+    <entry file="file://$PROJECT_DIR$/../../1/Java-course-master/16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/configuration/SecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/SpringSecurityApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -708,10 +780,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring_security.iml" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b098c3ef-6919-46ce-a9ac-b5568cba114b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/ItemProjection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-259">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ItemsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="456">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ProductRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../16. Spring Security_advanced/src/main/java/com/Java_course/spring/boot/current/SpringBoot/controllers/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ProductsSpecs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,17 +923,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/Role.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ProductsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="262">
+          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/simple-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-57" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.2/spring-boot-2.7.2.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/product-edit.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityWebApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -752,46 +970,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/ProductRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/repositories/specification/ProductsSpecs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/services/ProductsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="301">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -800,25 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/ServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/configuration/SecurityWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="209">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -827,29 +999,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="19">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring_security.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="488">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="115" selection-start-line="1" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/controllers/ItemsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V1__init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Java_course/spring_security/current/entities/ItemProjection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="27">
+          <caret line="61" column="26" lean-forward="true" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
         </state>
       </provider>
     </entry>

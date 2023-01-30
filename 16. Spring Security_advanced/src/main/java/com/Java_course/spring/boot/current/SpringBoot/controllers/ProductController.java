@@ -65,7 +65,7 @@ public class ProductController {
 			specification = specification.and(ProductsSpecs.priceGreaterThanOrEq(maxPrice));
 		}
 		Product product = new Product();
-		model.addAttribute("products", productsService.getProductWithPagingAndFiltering(specification,
+		model.addAttribute("products", productsService.getAllProductsWitchFilter().getProductWithPagingAndFiltering(specification,
 			PageRequest.of(page - 1, 5)).getContent());
 		model.addAttribute("product", product);
 		model.addAttribute("word", word);

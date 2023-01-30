@@ -3,7 +3,9 @@ package com.flamexander.zuul.server;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MyFilter extends ZuulFilter {
 	@Override
 	public String filterType() {

@@ -1,4 +1,4 @@
-package com.geekbrains.rabbitmq.consumer;
+package com.javaCourse.rabbitmq.consumer;
 
 import com.rabbitmq.client.*;
 

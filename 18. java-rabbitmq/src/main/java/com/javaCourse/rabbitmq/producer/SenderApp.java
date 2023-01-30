@@ -1,4 +1,4 @@
-package com.geekbrains.rabbitmq.producer;
+package com.javaCourse.rabbitmq.producer;
 
 import com.rabbitmq.client.*;
 

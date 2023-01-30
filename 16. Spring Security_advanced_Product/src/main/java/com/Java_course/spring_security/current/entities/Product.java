@@ -17,9 +17,9 @@ public class Product {
 	@Column(name = "id")
 	private Long id;
 
-	@Column
+	@Column(name = "title")
 	private String title;
 
-	@Column
+	@Column(name = "price")
 	private int price;
 }

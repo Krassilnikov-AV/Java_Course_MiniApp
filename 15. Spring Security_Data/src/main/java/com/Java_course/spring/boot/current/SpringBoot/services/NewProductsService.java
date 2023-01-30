@@ -19,7 +19,8 @@ public class NewProductsService {
 		this.newProductRepository = newProductRepository;
 	}
 
-	public Page<NewProduct> getProductWithPagingAndFiltering(Specification<NewProduct> specifications, Pageable pageable) {
+
+	public Page<NewProduct> getNewProductWithPagingAndFiltering(Specification<NewProduct> specifications, Pageable pageable) {
 
 		return newProductRepository.findAll(specifications, pageable);
 	}
@@ -32,6 +33,13 @@ public class NewProductsService {
 		newProductRepository.deleteById(id);
 	}
 
+	public void add(NewProduct product) {
+		newProductRepository.save(product);
+	}
+
+	public void save(NewProduct product) {
+		newProductRepository.save(product);
+	}
 
 	public void saveOrUpdate(NewProduct product) {
 		newProductRepository.save(product);

@@ -1,7 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd113caa-1843-41dc-8a25-e199daca89c7" name="Default Changelist" comment="" />
+    <list default="true" id="bd113caa-1843-41dc-8a25-e199daca89c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/repositories/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/repositories/specification/ItemsSpecs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/java/com/_securityProductData/services/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/db.migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/templates/product-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/templates/product-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15_securityProductData/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/configuration/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/configuration/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/controllers/ProductsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/java/com/productSecurityData/services/ProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/templates/product-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/templates/product-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15productSecurityData/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/artifacts/spring_security_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/artifacts/spring_security_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_65.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_flywaydb_flyway_core_5_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_aop_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_beans_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_context_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_core_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_expression_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_orm_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_test_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_tx_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_web_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity5_3_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/spring_security.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14. Spring boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14. Spring boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../16. Spring Security_advanced_Product/src/main/java/com/Java_course/spring_security/current/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/AuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/AuthServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/CustomTokenEnhancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/auth-server/src/main/java/com/flamexander/auth/service/CustomTokenEnhancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/eureka-client/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/eureka-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/eureka-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/secured-client/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/java/com/flamexander/zuul/server/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/java/com/flamexander/zuul/server/MyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../17. Spring Cloud/zuul-server/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-rabbitmq.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ReceiverApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ReceiverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/RoutingConsumerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/RoutingConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/ExchangeSenderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/ExchangeSenderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/RoutingProducerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/RoutingProducerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,113 +173,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/SenderApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/TaskProducerApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="77" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/TaskReceiverApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.0/amqp-client-5.7.0.jar!/com/rabbitmq/client/Channel.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ReceiverApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/ExchangeSenderApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ExchangeReceiverApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/RoutingProducerApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-18">
+              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/RoutingConsumerApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="88">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,6 +208,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,6 +226,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/RoutingConsumerApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/TaskProducerApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/TaskReceiverApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ReceiverApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/ExchangeSenderApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/RoutingConsumerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/RoutingProducerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java" />
       </list>
     </option>
   </component>
@@ -167,65 +255,77 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="474" />
-    <option name="y" value="49" />
-    <option name="width" value="1442" />
-    <option name="height" value="978" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="63" />
+    <option name="width" value="1543" />
+    <option name="height" value="785" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-rabbitmq" type="462c0819:PsiDirectoryNode" />
+              <item name="18. java-rabbitmq" type="b2602c69:ProjectViewProjectNode" />
+              <item name="18. java-rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq" type="462c0819:PsiDirectoryNode" />
               <item name="producer" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -233,13 +333,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561058933097" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rabbitmq-demo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -255,66 +354,36 @@
   </component>
   <component name="RunManager" selected="Application.ExchangeReceiverApp">
     <configuration name="ExchangeReceiverApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.rabbitmq.consumer.ExchangeReceiverApp" />
+      <option name="MAIN_CLASS_NAME" value="com.javaCourse.rabbitmq.consumer.ExchangeReceiverApp" />
       <module name="java-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.rabbitmq.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoutingConsumerApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.rabbitmq.consumer.RoutingConsumerApp" />
+    <configuration name="RoutingConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaCourse.rabbitmq.consumer.RoutingConsumerApp" />
       <module name="java-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.rabbitmq.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RoutingProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.rabbitmq.producer.RoutingProducerApp" />
+      <option name="MAIN_CLASS_NAME" value="com.javaCourse.rabbitmq.producer.RoutingProducerApp" />
       <module name="java-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.rabbitmq.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskProducerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.rabbitmq.producer.TaskProducerApp" />
+    <configuration name="TaskProducerApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaCourse.rabbitmq.producer.TaskProducerApp" />
       <module name="java-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.rabbitmq.producer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TaskReceiverApp" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.rabbitmq.consumer.TaskReceiverApp" />
+      <option name="MAIN_CLASS_NAME" value="com.javaCourse.rabbitmq.consumer.TaskReceiverApp" />
       <module name="java-rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.rabbitmq.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -349,10 +418,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="474" y="49" width="1442" height="978" extended-state="0" />
+    <frame x="51" y="0" width="1234" height="628" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19464543" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29045996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -361,16 +440,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20591716" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47780126" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Statistic" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -379,99 +460,84 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/SenderWithAckApp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ReceiverAckApp.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.0/amqp-client-5.7.0.jar!/com/rabbitmq/client/Channel.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ReceiverApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/ExchangeSenderApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/RoutingProducerApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/RoutingConsumerApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/TaskReceiverApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/TaskProducerApp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ExchangeReceiverApp.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.0/amqp-client-5.7.0.jar!/com/rabbitmq/client/Channel.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/SenderApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+        <state relative-caret-position="297">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/SenderApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/ExchangeSenderApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="48" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="380">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ReceiverApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ReceiverApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="359">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/ExchangeSenderApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/RoutingProducerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/RoutingProducerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/RoutingConsumerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/RoutingConsumerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/producer/TaskProducerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        <state relative-caret-position="-18">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/TaskReceiverApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/TaskReceiverApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/producer/TaskProducerApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/javaCourse/rabbitmq/consumer/ExchangeReceiverApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="77" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geekbrains/rabbitmq/consumer/ExchangeReceiverApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="218">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>

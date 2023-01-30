@@ -1,5 +1,6 @@
 package com.Java_course.spring_security.current.services;
 
+import com.Java_course.spring_security.current.entities.User;
 import com.Java_course.spring_security.current.entities.*;
 import com.Java_course.spring_security.current.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,6 +38,7 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	@Transactional
+
 	public User findByUsername(String username) {
 		return userRepository.findOneByUsername(username);
 	}

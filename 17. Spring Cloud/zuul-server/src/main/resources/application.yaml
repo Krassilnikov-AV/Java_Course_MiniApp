@@ -10,12 +10,12 @@ eureka:
     preferIpAddress: true
   client:
     registerWithEureka: false
-    fetchRegistry: true
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 zuul:
   routes:
-    geek-spring-cloud-eureka-client: /gc/**
+    geek-spring-cloud-eureka-client: /gclient/**
     secured-client: /secured/**
     statistic-chain-client: /statistic/**
     secured-feign-client: /feign/**

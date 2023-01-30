@@ -1,9 +1,9 @@
-package com.geekbrains.rabbitmq.producer;
+package com.javaCourse.rabbitmq.producer;
 
 import com.rabbitmq.client.*;
 
 public class TaskProducerApp {
-    private static final String TASK_QUEUE_NAME = "task_queue1";
+    private static final String TASK_QUEUE_NAME = "task_queue3";
 
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();

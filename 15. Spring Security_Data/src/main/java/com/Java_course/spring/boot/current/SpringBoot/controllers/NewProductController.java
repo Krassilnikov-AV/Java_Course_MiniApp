@@ -1,6 +1,6 @@
 package com.Java_course.spring.boot.current.SpringBoot.controllers;
 
-import com.Java_course.spring.boot.current.SpringBoot.entities.*;
+import com.Java_course.spring.boot.current.SpringBoot.entities.NewProduct;
 import com.Java_course.spring.boot.current.SpringBoot.repositories.specification.NewProductsSpecs;
 import com.Java_course.spring.boot.current.SpringBoot.services.NewProductsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 
+/*
 /**
  * 1. Перенесите всю работу с товарами на репозитории;
  * 2. Добавьте  пагинацию,  с  выводом  на  страницу  по  5  товаров;
@@ -50,11 +51,11 @@ public class NewProductController {
 			specification = specification.and(NewProductsSpecs.priceGreaterThanOrEq(minPrice));
 		}
 		if (maxPrice != null) {
-			specification = specification.and(NewProductsSpecs.priceGreaterThanOrEq(maxPrice));
+			specification = specification.and(NewProductsSpecs.priceLesserThanOrEq(maxPrice));
 		}
 		NewProduct product = new NewProduct();
-		model.addAttribute("products", newProductsService.getProductWithPagingAndFiltering(specification,
-			PageRequest.of(page - 1, 5)).getContent());
+		model.addAttribute("products", newProductsService.getNewProductWithPagingAndFiltering(specification,
+			PageRequest.of(page-1, 10)).getContent());
 		model.addAttribute("product", product);
 		model.addAttribute("word", word);
 		model.addAttribute("minPrice", minPrice);
@@ -64,8 +65,7 @@ public class NewProductController {
 
 	@GetMapping("/add")
 	public String showAddProductFrom(Model model) {
-		NewProduct product = new NewProduct();
-		model.addAttribute("product", product);
+		model.addAttribute("product", new NewProduct());
 		return "product-edit";
 	}
 
@@ -87,6 +87,12 @@ public class NewProductController {
 		NewProduct product = newProductsService.getById(id);
 		model.addAttribute("product", product);
 		return "product-page";
+	}
+
+	@PostMapping("/save")
+	public String saveProduct(@ModelAttribute("product") NewProduct product) {
+		newProductsService.save(product);
+		return "redirect:/products";
 	}
 
 	/**
